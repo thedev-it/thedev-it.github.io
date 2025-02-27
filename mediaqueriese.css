@@ -1,0 +1,177 @@
+
+
+@media screen  and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+  
+}
+
+
+
+/*Gestion du responsive DU NAVBAR */
+@media screen and (max-width: 1200px) {
+
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile, .section-container{
+        display: block;
+    }
+    .arrow{
+        display:none;
+    }
+    section, .section-container{
+        height: fit-content;
+    }
+
+    section{
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers{
+        margin-top: 0;
+    }
+
+    .navbar_contenu{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding:0;
+    }
+    .navbar_menu{
+        display: grid;
+        grid-template-columns:auto;
+        margin: 0;
+        width:50%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+        background: rgb(255, 255, 255);
+    }
+    
+    .navbar_menu.active{
+        background:#f0eded;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 65vh;
+        font-size: 1.6rem;
+    }
+    #navbar_logo{
+        padding-left:170px ;
+    }
+
+    .navbar__toggle .bar{
+        width: 25px;
+        height:3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background:#5e5454;
+        
+    }
+    
+    .navbar__item{
+        width: 100%;
+       
+    }
+    .navbar__links{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        font-size: 20px;
+    }
+    #mobile_menu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar__toggle .bar{
+        display: block;
+        cursor: pointer;
+    }
+    #mobile_menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #mobile_menu.is-active .bar:nth-child(1) {
+       transform:translateY(16px) rotate(90deg);
+    }
+    #mobile_menu.is-active .bar:nth-child(3) {
+        transform:translateY(16px) rotate(-90);
+      }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #contact,footer{
+        height: 40vh;
+    }
+    #profie{
+        height: 20vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    
+    .about-containers, .contact-info-upper-container,.btn-container{
+        flex-wrap: wrap;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p {
+        font-size: 1rem;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .section__pic-container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .section__text__p2{
+        font-size: 2rem;
+    }
+    .tilte{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+    footer{
+        height: 5vh;
+    }
+    footer p{
+        font-size: 15px;
+    }
+
+}
