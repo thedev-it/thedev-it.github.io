@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon projet bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+    
+    <header>
+        <nav class=" navbar navbar-expand-md  navbar-light fixed-top my-">
+           
+            <div class="container">
+                <a class="navbar-brand  fw-bold" href="/index.html">
+                    <span class="bg-primary  bg-gradient p-1 rounded-3 text-light">Gilles</span>Brant
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link fw-bold" href="#Home" >Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#expertise">Parcours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#competence">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#projet">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#contact">Contact</a>
+                        </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <main>
+        <br>
+        <section class="my-4" id="Home">
+            <div class="container">
+                <div class="row align-items-center gy-4 gy-md-0 text-center">
+                    <div class="col-12 col-md-6 ">
+                        <h3 class="fw-light"> Hello I'm</h3> 
+                        <h1 class="fw-bold">Gilles BITEMO </h1>
+                        <h2 class="fs-normal">Web Developper</h2>
+                        <h3 class="fw-light">Bienvenue sur mon portfolio</h3>
+                        <button type="button" class="btn btn-color-2 btn-primary  mt-5" onclick="window.open('Mon_CV.pdf')">Mon cv</button>
+                        <button class="btn btn-color-1 btn-primary mt-5" onclick="location = href ='./#contact' ">Contacts</button>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="coming-soon.png" alt="photo de profile" class="portrait-1">
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+            
+        <section class=" section-expertises py-5 bg-light " id="expertise">
+            <div class="container">
+                <h3 style="font-weight: 400;">Mon Profil</h3>
+                <h4 style="font-weight: 300;">Systeme & Réseau Web Developper</h4>
+                <div class="row gy-4 mt-4">
+                    <div class="col-12 col-md-6">
+                        <div class="details-container">
+                        <P>Etudiant  en <b>Génie logiciel (GL) à ESGAE.</b><br>
+                            Avec une forte passion pour l'informatique et les
+                             technologies de l'information. <br>Actuellement en licence, je me spécialise dans le 
+                             <b>développement de logiciels</b> tout en élargissant mes compétences 
+                             <br> dans le domaine des <b>réseaux</b>,et de la
+                              <b>cybersécurité</b>. Cette double compétence me permet d’aborder les défis
+                               <br> technologiques sous un angle complet.
+                               <br>
+                               <br>
+                               <br>
+                               </P>
+                            </div>
+                        </div>
+                    <div class="col-12 col-md-6">
+                        <div class="details-container " style="background: rgb(71, 89, 245) ; color: white;">
+                            <img 
+                            src="chapeau-de-fin-detudes.png" 
+                            alt="" 
+                            class="icon"
+                            />
+                            <h3>Parcours</h3>
+                            <p style="color: white;">Licence Genie Logiciel <br>E S G A E</p>
+                            <p style="color: white; ">BTS Analyse & Programmation <br>E S G A E</p>
+                            <p style="color: white; ">Baccalaurealt Scientifique <br>CANI-ANGELA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class=" my-1 " id="portfolio">
+            <div class="container">
+              <h3 style="font-weight: 400;">Certfications</h3>
+              <h4 style="font-weight: 300;">Developpement & Network & System  </h4>
+                <div class="row  py-5">
+                    <div class="col-12 col-md-6">
+                        <div class=" certifs  py-4">
+                            <img  class="certif-pic" src="network-technician-career-path.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="certifs  py-4 ">
+                            <img class="certif-pic " src="introduction-to-cybersecurity.png" alt="">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        </section>
+    </section>
+
+    <!-- Expertise -->
+    <section class="section-" id="competence" class="py-5">
+      <div class="container">
+        <h3 style="font-weight: 400;">Competences</h3>
+        <h4 style="font-weight: 300;">Developpement & Network & System  </h4>
+        <!-- Developpement -->
+        <div class="row gy-4 mt-4">
+          <div class="col-12 col-md-7">
+
+            <!-- Progress bar -->
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fab  fa-html5 fa-2x me-3" style="color: #ec8846;"></i>
+                    <p class="fw-bold m-0">HTML5</p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fab  fa-css3 fa-2x me-3" style="color: #3043e9;"></i>
+                    <p class="fw-bold m-0">CSS3</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fab  fa-js fa-2x me-3" style="color: #f8e802e3;"></i>
+                    <p class="fw-bold m-0">JS</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fab fa-php fa-2x me-3 text-primary"></i>
+                    <p class="fw-bold m-0">PHP</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fab fa-python fa-2x me-3 text-primary"></i>
+                    <p class="fw-bold m-0">Python</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- system & reseau -->
+        <div class="row gy-4 mt-4">
+          <div class="col-12 col-md-4 ">
+            <img src="sysadmin" alt="img systeme et reseau" style="width: 100%; object-fit: cover ;height: 100%;">
+          </div>
+          <div class="col-12 order-first offset-md-1 col-md-7 order-md-last">
+
+            <!-- Progress bar -->
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fa fa-network-wired fa-2x me-3 "></i>
+                    <p class="fw-bold m-0">CCNA 1</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fa fa-network-wired fa-2x me-3 "></i>
+                    <p class="fw-bold m-0">CCNA 2</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 p-3 bg-white">
+              <div class="row align-items-center">
+                <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                  <div class="d-flex align-items-center">
+                    <i class="fa fa-cloud  fa-2x me-3 text-primary "></i>
+                    <p class="fw-bold m-0">Cloud </p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="progress">
+                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                         aria-valuemax="100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class=" section-expertises py-5  " id="projet">
+      <div class="container">
+          <h3 style="font-weight: 400;">Projet</h3>
+          <h4 style="font-weight: 300;">Web & Mobile </h4>
+          <div class="row gy-4 mt-4">
+              <div class="col-12 col-md-6">
+                <div class="details-container">
+                  <div class="article-container">
+                    <img src="TYPING.png" alt="" class=" project-img">
+                </div>
+                <h2 class="experience-sub-tilte projet-tilte my-3"style="font-size: 25px; font-weight:200 ;">TapingLab</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                    <button class="btn btn-color-2 project-btn" ><a href="typing.html" style="text-decoration: none; color: #222224;">Demo</a></button>
+                </div>
+                </div>
+                  </div>
+              <div class="col-12 col-md-6">
+                  <div class="  details-container " style=" color: rgb(46, 45, 45);">
+                    <div class="article-container ">
+                      <img src="car-disign-2.png" alt="" class="project-img">
+                  </div>
+                  <h2 class="experience-sub-tilte projet-tilte my-3 " style="font-size: 25px; font-weight:200 ;">Projet de fin étude</h2>
+                  <div class="btn-container">
+                      <button class="btn btn-color-2 project-btn" ><a href="projet-etude.html" style="text-decoration: none; color: #222224;">Voir </a></button>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class=" my-4  py-5" id="contact">
+    
+    <div class="container ">
+      <div class="row gy-4 gy-md-0">
+        <h4 class="tilte text-center py-2" >Mes Contacts</h4>
+          <div class="col-12">
+           <ul  class="list-inline text-center d-flex justify-content-evenly d-md-justfy-con">
+              <li class="list-inline-item" > <a href="https://cg.linkedin.com/in/gilles-bitemo"><i class="fab fa-linkedin-in fa-2x me-3" style="color: #0d0d0e;"></i></a>linkedin</li>
+              <li class="list-inline-item"><i class="fa fa-envelope fa-2x me-3" style="color: #222224;"></i>bitemogilles@gmail.com</li>
+              <li class="list-inline-item"> <a href="https://github.com/"><i class="fab fa-github fa-2x me-2" style="color: #1f1e20;"></i></a>github</li>
+          </ul>
+          </div>
+      </div>
+    </div>
+</section>
+</main>
+
+
+<!-- Bootstrap JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+crossorigin="anonymous">
+</script>
+
+  
+<footer class="border-top">
+      <p>copyrigth&#169;Gilles Bitemo</p>
+</footer>
+</body>
+</html>
